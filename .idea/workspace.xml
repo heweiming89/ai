@@ -2,252 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33879d1d-a095-4f46-af27-8bfb66bf92a9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/ai_view_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/ai_view_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/ai_web_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/ai_web_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_8_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_8_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_8_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_0_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_stream_stax_api_1_0_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_9_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_41.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ehcache_ehcache_core_2_5_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__nz_net_ultraq_thymeleaf_thymeleaf_expression_processor_1_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__nz_net_ultraq_thymeleaf_thymeleaf_layout_dialect_2_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ognl_ognl_3_1_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_dbcp2_2_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_ehcache_1_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_spring_1_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_web_1_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_2_4_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_woodstox_core_asl_4_4_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_4_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_24.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_24.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_24.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jms_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_portlet_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_websocket_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring4_3_0_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_Bootstrap_3_Typeahead_3_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_bootstrap_3_3_7_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_bootstrap_datepicker_1_6_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_bootstrap_daterangepicker_2_1_24.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_bootstrap_switch_3_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_bower_angular_1_6_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_bower_bootstrap_3_3_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_bower_bootstrap_calendar_0_2_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_bower_bootstrap_hover_dropdown_2_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_bower_countUp_js_1_7_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_bower_easy_pie_chart_2_1_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_bower_es6_promise_4_0_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_bower_fullcalendar_3_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_bower_html5_boilerplate_5_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_bower_jquery_2_1_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_bower_jquery_repeater_1_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_bower_jquery_sparkline_2_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_bower_jsencrypt_2_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_bower_metro_3_0_15.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_bower_moment_2_17_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_bower_multiselect_two_sides_2_2_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_bower_pdfmake_dist_0_1_31.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_bower_raphael_2_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_bower_requirejs_2_1_22.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_bower_select2_4_0_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_bower_select2_bootstrap_theme_0_1_0_beta_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_bower_simple_line_icons_2_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_bower_sweetalert2_6_4_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_bower_timeago_1_5_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_bower_toastr_2_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_bower_underscore_1_8_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_bower_waypoints_4_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_font_awesome_4_7_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jQuery_slimScroll_1_3_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_2_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_blockui_2_65.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_validation_1_16_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_js_cookie_2_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jstree_3_3_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jszip_3_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_modernizr_2_8_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_momentjs_2_17_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_morrisjs_0_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_raphaeljs_2_1_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_select2_4_0_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_x_editable_bootstrap3_1_5_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-api/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-api/ai-api.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-mock/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-mock/ai-mock.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-mock/src/test/resources/generatorConfig-system.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-mock/src/test/resources/mbg-view.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-service/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-service/.settings/org.eclipse.wst.validation.prefs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-service/ai-service.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/ai-view.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/config/ShiroConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/constant/WebConstants.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/controller/GlobalExceptionHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/mapper/DictionaryMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/mapper/LoginLogMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/mapper/MenuMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/mapper/OperationLogMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/mapper/PermissionsMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/mapper/RoleMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/mapper/RolePermissionsMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/mapper/SessionMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/mapper/UserMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/mapper/UserRoleMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/mapper/base/BaseMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/mapper/package-info.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/model/Dictionary.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/model/DictionaryExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/model/LoginLog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/model/LoginLogExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/model/Menu.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/model/MenuExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/model/OperationLog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/model/OperationLogExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/model/Permissions.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/model/PermissionsExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/model/Role.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/model/RoleExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/model/RolePermissions.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/model/RolePermissionsExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/model/Session.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/model/SessionExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/model/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/model/UserExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/model/UserRole.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/model/UserRoleExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/service/DictionaryService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/service/LoginLogService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/service/MenuService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/service/OperationLogService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/service/PermissionsService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/service/RolePermissionsMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/service/RoleService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/service/SessionService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/service/UserRoleService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/service/UserService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/service/base/BaseService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/service/impl/BaseServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/service/impl/LoginLogServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/service/impl/UserServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/shiro/realm/UserRealm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/web/AjaxResponse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/web/DataTablesRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/web/DataTablesResponse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/web/JsTreeResponse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/web/form/UserLoginForm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/resources/mapper/DictionaryMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/resources/mapper/LoginLogMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/resources/mapper/MenuMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/resources/mapper/OperationLogMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/resources/mapper/PermissionsMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/resources/mapper/RoleMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/resources/mapper/RolePermissionsMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/resources/mapper/SessionMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/resources/mapper/UserMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/resources/mapper/UserRoleMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/webapp/WEB-INF/static/global/css/custom.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/webapp/WEB-INF/templates/pages/error/404.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/webapp/WEB-INF/templates/pages/error/404_full.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/webapp/WEB-INF/templates/pages/error/500.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/main/webapp/WEB-INF/templates/pages/error/500_full.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-view/src/test/java/com/heweiming/project/ai/ApplicationTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-web/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-web/ai-web.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-webjars/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-webjars/.settings/org.eclipse.wst.validation.prefs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai-webjars/ai-webjars.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ai-view/target/classes/com/heweiming/project/ai/ApplicationInitializer.class" afterPath="$PROJECT_DIR$/ai-view/target/classes/com/heweiming/project/ai/ApplicationInitializer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ai-view/target/classes/com/heweiming/project/ai/config/AppContextConfig.class" afterPath="$PROJECT_DIR$/ai-view/target/classes/com/heweiming/project/ai/config/AppContextConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ai-view/target/classes/com/heweiming/project/ai/config/WebContextConfig.class" afterPath="$PROJECT_DIR$/ai-view/target/classes/com/heweiming/project/ai/config/WebContextConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ai-view/target/classes/com/heweiming/project/ai/controller/ApplicationController.class" afterPath="$PROJECT_DIR$/ai-view/target/classes/com/heweiming/project/ai/controller/ApplicationController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ai-view/target/classes/com/heweiming/project/ai/controller/VerifyCodeController.class" afterPath="$PROJECT_DIR$/ai-view/target/classes/com/heweiming/project/ai/controller/VerifyCodeController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ai-api/target/classes/META-INF/maven/com.heweiming.project/ai-api/pom.properties" afterPath="$PROJECT_DIR$/ai-api/target/classes/META-INF/maven/com.heweiming.project/ai-api/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ai-mock/pom.xml" afterPath="$PROJECT_DIR$/ai-mock/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ai-mock/target/classes/META-INF/maven/com.heweiming.project/ai-mock/pom.properties" afterPath="$PROJECT_DIR$/ai-mock/target/classes/META-INF/maven/com.heweiming.project/ai-mock/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ai-mock/target/classes/META-INF/maven/com.heweiming.project/ai-mock/pom.xml" afterPath="$PROJECT_DIR$/ai-mock/target/classes/META-INF/maven/com.heweiming.project/ai-mock/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ai-service/.project" afterPath="$PROJECT_DIR$/ai-service/.project" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ai-service/target/classes/META-INF/maven/com.heweiming.project/ai-service/pom.properties" afterPath="$PROJECT_DIR$/ai-service/target/classes/META-INF/maven/com.heweiming.project/ai-service/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ai-view/.project" afterPath="$PROJECT_DIR$/ai-view/.project" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ai-view/.settings/org.eclipse.wst.common.component" afterPath="$PROJECT_DIR$/ai-view/.settings/org.eclipse.wst.common.component" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ai-view/.settings/org.eclipse.wst.common.project.facet.core.xml" afterPath="$PROJECT_DIR$/ai-view/.settings/org.eclipse.wst.common.project.facet.core.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/ApplicationInitializer.java" afterPath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/ApplicationInitializer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/config/AppContextConfig.java" afterPath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/config/AppContextConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/config/WebContextConfig.java" afterPath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/config/WebContextConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/controller/ApplicationController.java" afterPath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/controller/ApplicationController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/controller/VerifyCodeController.java" afterPath="$PROJECT_DIR$/ai-view/src/main/java/com/heweiming/project/ai/controller/VerifyCodeController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ai-view/src/main/resources/db.properties" afterPath="$PROJECT_DIR$/ai-view/src/main/resources/db.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ai-view/src/main/resources/log4j.properties" afterPath="$PROJECT_DIR$/ai-view/src/main/resources/log4j.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ai-view/src/main/webapp/WEB-INF/static/pages/css/login.min.css" afterPath="$PROJECT_DIR$/ai-view/src/main/webapp/WEB-INF/static/pages/css/login.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ai-view/src/main/webapp/WEB-INF/static/pages/scripts/login.min.js" afterPath="$PROJECT_DIR$/ai-view/src/main/webapp/WEB-INF/static/pages/scripts/login.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_ui_1_12_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/ai_view_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/ai_view_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ai-view/ai-view.iml" afterPath="$PROJECT_DIR$/ai-view/ai-view.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ai-view/src/main/webapp/WEB-INF/templates/admin_index.html" afterPath="$PROJECT_DIR$/ai-view/src/main/webapp/WEB-INF/templates/admin_index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ai-view/src/main/webapp/WEB-INF/templates/example/datatables/index.html" afterPath="$PROJECT_DIR$/ai-view/src/main/webapp/WEB-INF/templates/example/datatables/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ai-view/src/main/webapp/WEB-INF/templates/example/verifyCode/index.html" afterPath="$PROJECT_DIR$/ai-view/src/main/webapp/WEB-INF/templates/example/verifyCode/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ai-view/src/main/webapp/WEB-INF/templates/login.html" afterPath="$PROJECT_DIR$/ai-view/src/main/webapp/WEB-INF/templates/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ai-view/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/ai-view/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ai-view/target/classes/db.properties" afterPath="$PROJECT_DIR$/ai-view/target/classes/db.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ai-view/target/classes/log4j.properties" afterPath="$PROJECT_DIR$/ai-view/target/classes/log4j.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ai-view/target/m2e-wtp/web-resources/META-INF/maven/com.heweiming.project/ai-view/pom.properties" afterPath="$PROJECT_DIR$/ai-view/target/m2e-wtp/web-resources/META-INF/maven/com.heweiming.project/ai-view/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ai-web/target/m2e-wtp/web-resources/META-INF/maven/com.heweiming.project/ai-web/pom.properties" afterPath="$PROJECT_DIR$/ai-web/target/m2e-wtp/web-resources/META-INF/maven/com.heweiming.project/ai-web/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ai-webjars/.project" afterPath="$PROJECT_DIR$/ai-webjars/.project" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ai-view/src/main/webapp/WEB-INF/templates/includes/layouts/admin/scripts.html" afterPath="$PROJECT_DIR$/ai-view/src/main/webapp/WEB-INF/templates/includes/layouts/admin/scripts.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ai-webjars/ai-webjars.iml" afterPath="$PROJECT_DIR$/ai-webjars/ai-webjars.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ai-webjars/pom.xml" afterPath="$PROJECT_DIR$/ai-webjars/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ai-webjars/target/classes/META-INF/maven/com.heweiming.project/ai-webjars/pom.properties" afterPath="$PROJECT_DIR$/ai-webjars/target/classes/META-INF/maven/com.heweiming.project/ai-webjars/pom.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ai-view/src/main/webapp/WEB-INF/templates/pages/dashboard/index.html" afterPath="$PROJECT_DIR$/ai-view/src/main/webapp/WEB-INF/templates/example/dashboard/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ai-webjars/target/classes/META-INF/maven/com.heweiming.project/ai-webjars/pom.xml" afterPath="$PROJECT_DIR$/ai-webjars/target/classes/META-INF/maven/com.heweiming.project/ai-webjars/pom.xml" />
     </list>
     <ignored path="ai.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -285,11 +50,61 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ai-view/src/main/webapp/WEB-INF/templates/example/datatables/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="175" column="64" selection-start-line="175" selection-start-column="39" selection-end-line="175" selection-end-column="64" />
+            <state relative-caret-position="327">
+              <caret line="125" column="0" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ai-view/src/main/webapp/WEB-INF/templates/example/Calendar/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ai-view/src/main/webapp/WEB-INF/templates/example/dashboard/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ai-view/src/main/webapp/WEB-INF/templates/includes/bak/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scripts.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ai-view/src/main/webapp/WEB-INF/templates/includes/layouts/admin/scripts.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ai-view/src/main/webapp/WEB-INF/templates/includes/layouts/admin/style.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -310,6 +125,7 @@
       <list>
         <option value="$PROJECT_DIR$/ai-view/src/main/webapp/WEB-INF/static/pages/scripts/login.min.js" />
         <option value="$PROJECT_DIR$/ai-view/src/main/webapp/WEB-INF/templates/example/datatables/index.html" />
+        <option value="$PROJECT_DIR$/ai-view/src/main/webapp/WEB-INF/templates/includes/layouts/admin/scripts.html" />
       </list>
     </option>
   </component>
@@ -530,7 +346,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="example" />
+              <option name="myItemId" value="includes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -568,11 +384,57 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="example" />
+              <option name="myItemId" value="includes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="datatables" />
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ai" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ai" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ai-view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="includes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -713,12 +575,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1489232535379</updated>
-      <workItem from="1489232538680" duration="854000" />
+      <workItem from="1489232538680" duration="1730000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="854000" />
+    <option name="totallyTimeSpent" value="1730000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="728" extended-state="0" />
@@ -780,8 +642,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ai-view/src/main/webapp/WEB-INF/templates/example/datatables/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="175" column="64" selection-start-line="175" selection-start-column="39" selection-end-line="175" selection-end-column="64" />
+        <state relative-caret-position="327">
+          <caret line="125" column="0" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ai-view/src/main/webapp/WEB-INF/templates/example/Calendar/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ai-view/src/main/webapp/WEB-INF/templates/example/dashboard/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ai-view/src/main/webapp/WEB-INF/templates/includes/bak/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ai-view/src/main/webapp/WEB-INF/templates/includes/layouts/admin/style.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ai-view/src/main/webapp/WEB-INF/templates/includes/layouts/admin/scripts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -45,6 +45,7 @@
           </element>
           <element id="library" level="project" name="Maven: org.webjars:jquery:2.2.4" />
           <element id="library" level="project" name="Maven: org.webjars:bootstrap:3.3.7-1" />
+          <element id="library" level="project" name="Maven: org.webjars:jquery-ui:1.12.1" />
           <element id="library" level="project" name="Maven: org.webjars.bower:html5-boilerplate:5.2.0" />
           <element id="library" level="project" name="Maven: org.webjars:modernizr:2.8.3" />
           <element id="library" level="project" name="Maven: org.webjars.bower:angular:1.6.2" />

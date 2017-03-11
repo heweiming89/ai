@@ -4,11 +4,20 @@
 	<link th:href="@{/static/layouts/admin/css/layout.min.css}" rel="stylesheet" type="text/css" />
 	<link th:href="@{/static/layouts/admin/css/themes/blue.min.css}" rel="stylesheet" type="text/css" id="style_color" />
 	<!-- END THEME LAYOUT STYLES -->
-	
-	<!-- 	<link th:href="@{/webjars/font-awesome/4.7.0/css/font-awesome.min.css}" rel="stylesheet" type="text/css" /> -->
+
+	<link href="${context_root}/resources/plugins/DataTables/1.10.13/media/css/dataTables.bootstrap.min.css"
+		rel="stylesheet" type="text/css" />
+	<link href="${context_root}/resources/plugins/DataTables/1.10.13/extensions/Select/css/select.bootstrap.min.css"
+		rel="stylesheet" type="text/css" />
+	<link href="${context_root}/resources/plugins/DataTables/1.10.13/extensions/Buttons/css/buttons.bootstrap.min.css"
+		rel="stylesheet" type="text/css" />
+
+	<link th:href="@{/webjars/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker3.min.css}" rel="stylesheet"
+		type="text/css" />
 	<link th:href="@{/webjars/fullcalendar/3.1.0/dist/fullcalendar.min.css}"
 		href="webjars/fullcalendar/3.1.0/dist/fullcalendar.min.css" rel="stylesheet" type="text/css" />
 
 
 	<link th:href="@{/static/layouts/admin/admin-style.css}" rel="stylesheet" type="text/css" />
+
 </th:block>
