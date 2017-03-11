@@ -23,12 +23,12 @@ public class VerifyCodeController {
         response.setDateHeader("Expires", 0);
         response.setContentType(MimeTypeUtils.IMAGE_JPEG_VALUE);
         //生成随机字串  
-        String verifyCode = VerifyCodeUtils.generateVerifyCode(6);
+        String verifyCode = VerifyCodeUtils.generateVerifyCode(4);
         //存入会话session  
         HttpSession session = request.getSession(true);
         session.setAttribute("verifyCode", verifyCode.toLowerCase());
         //生成图片  
-        int w = 110, h = 43;
+        int w = 103, h = 41;
         VerifyCodeUtils.outputImage(w, h, response.getOutputStream(), verifyCode);
     }
 

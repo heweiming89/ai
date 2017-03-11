@@ -47,10 +47,11 @@ import com.heweiming.project.ai.property.ApplicationProperties;
 
 @Configuration
 @EnableWebMvc // 启用 Spring MVC
-@ComponentScan(basePackages = { ApplicationProperties.BASE_PACKAGES }, useDefaultFilters = false, includeFilters = {
-        @Filter(type = FilterType.ANNOTATION, value = Controller.class),
-        @Filter(type = FilterType.ANNOTATION, value = RestController.class),
-        @Filter(type = FilterType.ANNOTATION, value = ControllerAdvice.class) })
+@ComponentScan(basePackages = {
+        ApplicationProperties.BASE_PACKAGES }, useDefaultFilters = false, includeFilters = {
+                @Filter(type = FilterType.ANNOTATION, value = Controller.class),
+                @Filter(type = FilterType.ANNOTATION, value = RestController.class),
+                @Filter(type = FilterType.ANNOTATION, value = ControllerAdvice.class) })
 public class WebContextConfig extends WebMvcConfigurerAdapter implements ApplicationContextAware {
 
     @Autowired
@@ -59,18 +60,21 @@ public class WebContextConfig extends WebMvcConfigurerAdapter implements Applica
     private ApplicationContext applicationContext;
 
     @Override
-    public void setApplicationContext(final ApplicationContext applicationContext) throws BeansException {
+    public void setApplicationContext(final ApplicationContext applicationContext)
+            throws BeansException {
         this.applicationContext = applicationContext;
     }
 
     @Bean
     public SpringResourceTemplateResolver templateResolver() {
-        SpringResourceTemplateResolver resolver = new SpringResourceTemplateResolver();
-        resolver.setApplicationContext(this.applicationContext);
-        resolver.setPrefix("/WEB-INF/templates/");
-        resolver.setSuffix(".html");
-        resolver.setCharacterEncoding("UTF-8");
-        return resolver;
+        SpringResourceTemplateResolver templateResolver = new SpringResourceTemplateResolver();
+        templateResolver.setApplicationContext(this.applicationContext);
+        templateResolver.setPrefix("/WEB-INF/templates/");
+        templateResolver.setSuffix(".html");
+        templateResolver.setCharacterEncoding("UTF-8");
+        templateResolver
+                .setCacheable(env.getProperty("spring.thymeleaf.cache", Boolean.class, true));
+        return templateResolver;
     }
 
     @Bean
@@ -135,14 +139,15 @@ public class WebContextConfig extends WebMvcConfigurerAdapter implements Applica
         builder.deserializersByType(deserializers);
 
         MappingJackson2HttpMessageConverter jsonHmc = new MappingJackson2HttpMessageConverter();
-        jsonHmc.setSupportedMediaTypes(
-                Arrays.asList(MediaType.APPLICATION_JSON, MediaType.APPLICATION_JSON_UTF8, MediaType.TEXT_HTML));
+        jsonHmc.setSupportedMediaTypes(Arrays.asList(MediaType.APPLICATION_JSON,
+                MediaType.APPLICATION_JSON_UTF8, MediaType.TEXT_HTML));
         jsonHmc.setObjectMapper(builder.build());
         converters.add(jsonHmc);
 
         MappingJackson2XmlHttpMessageConverter xmlHmc = new MappingJackson2XmlHttpMessageConverter();
-        xmlHmc.setSupportedMediaTypes(Arrays.asList(MediaType.APPLICATION_XML, MediaType.APPLICATION_ATOM_XML,
-                MediaType.APPLICATION_XHTML_XML, MediaType.TEXT_XML));
+        xmlHmc.setSupportedMediaTypes(
+                Arrays.asList(MediaType.APPLICATION_XML, MediaType.APPLICATION_ATOM_XML,
+                        MediaType.APPLICATION_XHTML_XML, MediaType.TEXT_XML));
         xmlHmc.setObjectMapper(builder.createXmlMapper(Boolean.TRUE).build());
         converters.add(xmlHmc);
     }
