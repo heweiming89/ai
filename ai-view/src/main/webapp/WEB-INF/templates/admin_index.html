@@ -17,6 +17,11 @@
 <link rel="shortcut icon" th:href="@{/favicon.ico}" />
 <th:block th:replace="~{includes/global/style}" />
 <th:block th:replace="~{includes/layouts/admin/style}" />
+<script th:inline="javascript" type="text/javascript">
+    	window.contextPath = [[${#servletContext.contextPath}]];
+	</script>
+<th:block th:replace="~{includes/global/scripts}" />
+<th:block th:replace="~{includes/layouts/admin/scripts}" />
 </head>
 <!-- END HEAD -->
 <body class="page-sidebar-closed-hide-logo page-container-bg-solid page-boxed">
@@ -70,11 +75,10 @@
 					</div>
 					<!-- END PAGE HEADER-->
 					<!-- BEGIN PAGE BODY-->
-					<th:block th:replace="~{pages/dashboard/index}" />
-					<th:block th:replace="~{example/modal/index}" />
+					<!-- 					<th:block th:replace="~{example/dashboard/index}" /> -->
+					<!-- 					<th:block th:replace="~{example/modal/index}" /> -->
 					<th:block th:replace="~{example/datatables/index}" />
-					<th:block th:replace="~{example/verifyCode/index}" />
-					432142
+					<!-- 					<th:block th:replace="~{example/verifyCode/index}" /> -->
 					<!-- END PAGE BODY-->
 				</div>
 				<!-- END CONTENT BODY -->
@@ -89,10 +93,5 @@
 		<!-- END FOOTER -->
 	</div>
 	<!-- END CONTAINER -->
-	<script th:inline="javascript" type="text/javascript">
-    	window.contextPath = [[${#servletContext.contextPath}]];
-	</script>
-	<th:block th:replace="~{includes/global/scripts}" />
-	<th:block th:replace="~{includes/layouts/admin/scripts}" />
 </body>
 </html>

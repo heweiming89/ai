@@ -1,0 +1,4 @@
+body, .chinese-character, .dataTables_wrapper, .modal-title,
+	.select2-container--bootstrap .select2-selection {
+	font-family: "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
+}

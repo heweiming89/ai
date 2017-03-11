@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="ai-api" />
+        <module name="ai-mock" />
+        <module name="ai-service" />
+        <module name="ai-view" />
+        <module name="ai-web" />
+        <module name="ai-webjars" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ai" target="1.8" />
+      <module name="ai-api" target="1.8" />
+      <module name="ai-mock" target="1.8" />
+      <module name="ai-service" target="1.8" />
+      <module name="ai-view" target="1.8" />
+      <module name="ai-web" target="1.8" />
+      <module name="ai-webjars" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

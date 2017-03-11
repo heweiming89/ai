@@ -117,7 +117,7 @@ public class WebContextConfig extends WebMvcConfigurerAdapter implements Applica
 
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
-        // registry.addInterceptor(new TimeBasedAccessInterceptor());
+
     }
 
     @Override
@@ -153,13 +153,6 @@ public class WebContextConfig extends WebMvcConfigurerAdapter implements Applica
     }
 
     @Override
-    public void configurePathMatch(PathMatchConfigurer configurer) {
-        UrlPathHelper urlPathHelper = new UrlPathHelper();
-        urlPathHelper.setRemoveSemicolonContent(false);
-        configurer.setUrlPathHelper(urlPathHelper);
-    }
-
-    @Override
     public void configureContentNegotiation(ContentNegotiationConfigurer configurer) {
         configurer.mediaType("json", MediaType.APPLICATION_JSON);
         configurer.mediaType("xml", MediaType.APPLICATION_XML);
@@ -167,9 +160,19 @@ public class WebContextConfig extends WebMvcConfigurerAdapter implements Applica
 
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
-        if (!registry.hasMappingForPattern("/static/**")) {
-            registry.addResourceHandler("/static/**").addResourceLocations("/WEB-INF/static/");
+
+        final String staticPattern = "/static/**";
+        final String staticLocations = "/WEB-INF/static/";
+        if (!registry.hasMappingForPattern(staticPattern)) {
+            registry.addResourceHandler(staticPattern).addResourceLocations(staticLocations);
         }
+
+        final String webjarsPattern = "/webjars/**";
+        final String webjarsLocations = "classpath:/META-INF/resources/webjars/";
+        if (!registry.hasMappingForPattern(webjarsPattern)) {
+            registry.addResourceHandler(webjarsPattern).addResourceLocations(webjarsLocations);
+        }
+
     }
 
 }

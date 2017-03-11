@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ai-view:war">
+    <output-path>$PROJECT_DIR$/ai-view/target</output-path>
+    <root id="archive" name="ai.war">
+      <element id="artifact" artifact-name="ai-view:war exploded" />
+    </root>
+  </artifact>
+</component>

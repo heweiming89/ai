@@ -1,4 +1,6 @@
 <th:block xmlns:th="http://www.thymeleaf.org">
-	<img th:src="@{/verifyCode}" alt="" />
-	43214321
+	<button class="btn btn-info" type="button" style="padding: 0;">
+		<img th:src="@{/verifyCode}" title="点击刷新验证码" alt="" src=""
+			onclick="this.src=''+contextPath+'/verifyCode?'+Math.random()" />
+	</button>
 </th:block>

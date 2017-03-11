@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ai.iml" filepath="$PROJECT_DIR$/ai.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ai-api/ai-api.iml" filepath="$PROJECT_DIR$/ai-api/ai-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ai-mock/ai-mock.iml" filepath="$PROJECT_DIR$/ai-mock/ai-mock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ai-service/ai-service.iml" filepath="$PROJECT_DIR$/ai-service/ai-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ai-view/ai-view.iml" filepath="$PROJECT_DIR$/ai-view/ai-view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ai-web/ai-web.iml" filepath="$PROJECT_DIR$/ai-web/ai-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ai-webjars/ai-webjars.iml" filepath="$PROJECT_DIR$/ai-webjars/ai-webjars.iml" />
+    </modules>
+  </component>
+</project>

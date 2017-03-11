@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.heweiming.project.ai.mapper.LoginLogMapper">
+  <resultMap id="BaseResultMap" type="com.heweiming.project.ai.model.LoginLog">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
+    <result column="login_time" jdbcType="TIMESTAMP" property="loginTime" />
+    <result column="login_ip" jdbcType="VARCHAR" property="loginIp" />
+    <result column="login_state" jdbcType="BIT" property="loginState" />
+    <result column="login_browser" jdbcType="VARCHAR" property="loginBrowser" />
+    <result column="screen_resolution" jdbcType="VARCHAR" property="screenResolution" />
+    <result column="operating_system" jdbcType="VARCHAR" property="operatingSystem" />
+    <result column="remark" jdbcType="VARCHAR" property="remark" />
+  </resultMap>
+  <sql id="Example_Where_Clause">
+    <where>
+      <foreach collection="oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause">
+    <where>
+      <foreach collection="example.oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List">
+    id, username, login_time, login_ip, login_state, login_browser, screen_resolution, 
+    operating_system, remark
+  </sql>
+  <select id="selectByExample" parameterType="com.heweiming.project.ai.model.LoginLogExample" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from t_sys_login_log
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from t_sys_login_log
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from t_sys_login_log
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.heweiming.project.ai.model.LoginLogExample">
+    delete from t_sys_login_log
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.heweiming.project.ai.model.LoginLog">
+    <selectKey keyProperty="id" order="AFTER" resultType="java.lang.Integer">
+      SELECT LAST_INSERT_ID()
+    </selectKey>
+    insert into t_sys_login_log (username, login_time, login_ip, 
+      login_state, login_browser, screen_resolution, 
+      operating_system, remark)
+    values (#{username,jdbcType=VARCHAR}, #{loginTime,jdbcType=TIMESTAMP}, #{loginIp,jdbcType=VARCHAR}, 
+      #{loginState,jdbcType=BIT}, #{loginBrowser,jdbcType=VARCHAR}, #{screenResolution,jdbcType=VARCHAR}, 
+      #{operatingSystem,jdbcType=VARCHAR}, #{remark,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.heweiming.project.ai.model.LoginLog">
+    <selectKey keyProperty="id" order="AFTER" resultType="java.lang.Integer">
+      SELECT LAST_INSERT_ID()
+    </selectKey>
+    insert into t_sys_login_log
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="username != null">
+        username,
+      </if>
+      <if test="loginTime != null">
+        login_time,
+      </if>
+      <if test="loginIp != null">
+        login_ip,
+      </if>
+      <if test="loginState != null">
+        login_state,
+      </if>
+      <if test="loginBrowser != null">
+        login_browser,
+      </if>
+      <if test="screenResolution != null">
+        screen_resolution,
+      </if>
+      <if test="operatingSystem != null">
+        operating_system,
+      </if>
+      <if test="remark != null">
+        remark,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="username != null">
+        #{username,jdbcType=VARCHAR},
+      </if>
+      <if test="loginTime != null">
+        #{loginTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="loginIp != null">
+        #{loginIp,jdbcType=VARCHAR},
+      </if>
+      <if test="loginState != null">
+        #{loginState,jdbcType=BIT},
+      </if>
+      <if test="loginBrowser != null">
+        #{loginBrowser,jdbcType=VARCHAR},
+      </if>
+      <if test="screenResolution != null">
+        #{screenResolution,jdbcType=VARCHAR},
+      </if>
+      <if test="operatingSystem != null">
+        #{operatingSystem,jdbcType=VARCHAR},
+      </if>
+      <if test="remark != null">
+        #{remark,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.heweiming.project.ai.model.LoginLogExample" resultType="java.lang.Long">
+    select count(*) from t_sys_login_log
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map">
+    update t_sys_login_log
+    <set>
+      <if test="record.id != null">
+        id = #{record.id,jdbcType=INTEGER},
+      </if>
+      <if test="record.username != null">
+        username = #{record.username,jdbcType=VARCHAR},
+      </if>
+      <if test="record.loginTime != null">
+        login_time = #{record.loginTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.loginIp != null">
+        login_ip = #{record.loginIp,jdbcType=VARCHAR},
+      </if>
+      <if test="record.loginState != null">
+        login_state = #{record.loginState,jdbcType=BIT},
+      </if>
+      <if test="record.loginBrowser != null">
+        login_browser = #{record.loginBrowser,jdbcType=VARCHAR},
+      </if>
+      <if test="record.screenResolution != null">
+        screen_resolution = #{record.screenResolution,jdbcType=VARCHAR},
+      </if>
+      <if test="record.operatingSystem != null">
+        operating_system = #{record.operatingSystem,jdbcType=VARCHAR},
+      </if>
+      <if test="record.remark != null">
+        remark = #{record.remark,jdbcType=VARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map">
+    update t_sys_login_log
+    set id = #{record.id,jdbcType=INTEGER},
+      username = #{record.username,jdbcType=VARCHAR},
+      login_time = #{record.loginTime,jdbcType=TIMESTAMP},
+      login_ip = #{record.loginIp,jdbcType=VARCHAR},
+      login_state = #{record.loginState,jdbcType=BIT},
+      login_browser = #{record.loginBrowser,jdbcType=VARCHAR},
+      screen_resolution = #{record.screenResolution,jdbcType=VARCHAR},
+      operating_system = #{record.operatingSystem,jdbcType=VARCHAR},
+      remark = #{record.remark,jdbcType=VARCHAR}
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.heweiming.project.ai.model.LoginLog">
+    update t_sys_login_log
+    <set>
+      <if test="username != null">
+        username = #{username,jdbcType=VARCHAR},
+      </if>
+      <if test="loginTime != null">
+        login_time = #{loginTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="loginIp != null">
+        login_ip = #{loginIp,jdbcType=VARCHAR},
+      </if>
+      <if test="loginState != null">
+        login_state = #{loginState,jdbcType=BIT},
+      </if>
+      <if test="loginBrowser != null">
+        login_browser = #{loginBrowser,jdbcType=VARCHAR},
+      </if>
+      <if test="screenResolution != null">
+        screen_resolution = #{screenResolution,jdbcType=VARCHAR},
+      </if>
+      <if test="operatingSystem != null">
+        operating_system = #{operatingSystem,jdbcType=VARCHAR},
+      </if>
+      <if test="remark != null">
+        remark = #{remark,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.heweiming.project.ai.model.LoginLog">
+    update t_sys_login_log
+    set username = #{username,jdbcType=VARCHAR},
+      login_time = #{loginTime,jdbcType=TIMESTAMP},
+      login_ip = #{loginIp,jdbcType=VARCHAR},
+      login_state = #{loginState,jdbcType=BIT},
+      login_browser = #{loginBrowser,jdbcType=VARCHAR},
+      screen_resolution = #{screenResolution,jdbcType=VARCHAR},
+      operating_system = #{operatingSystem,jdbcType=VARCHAR},
+      remark = #{remark,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <select id="selectByExampleWithRowbounds" parameterType="com.heweiming.project.ai.model.LoginLogExample" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from t_sys_login_log
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+</mapper>

@@ -31,7 +31,7 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import com.heweiming.project.ai.property.ApplicationProperties;
 
 @Configuration
-@Import(value = {})
+@Import(value = { MyBatisConfig.class })
 @PropertySource(value = { "classpath:config/application.properties", "classpath:db.properties" })
 @ComponentScan(basePackages = { ApplicationProperties.BASE_PACKAGES }, excludeFilters = {
         @Filter(type = FilterType.ANNOTATION, value = EnableWebMvc.class),
