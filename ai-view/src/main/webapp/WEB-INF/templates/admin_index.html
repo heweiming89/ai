@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!--[if IE 8]>
+<html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]>
+<html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<!--<![endif]-->
+<!-- BEGIN HEAD -->
+<head>
+<meta charset="utf-8" />
+<title>管理后台</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta content="width=device-width, initial-scale=1" name="viewport" />
+<meta content="" name="description" />
+<meta content="" name="author" />
+<link rel="shortcut icon" th:href="@{/favicon.ico}" />
+<th:block th:replace="~{includes/global/style}" />
+<th:block th:replace="~{includes/layouts/admin/style}" />
+</head>
+<!-- END HEAD -->
+<body class="page-sidebar-closed-hide-logo page-container-bg-solid page-boxed">
+	<!-- BEGIN HEADER -->
+	<th:block th:replace="~{includes/layouts/admin/fragments/header}" />
+	<!-- END HEADER -->
+	<!-- BEGIN HEADER & CONTENT DIVIDER -->
+	<div class="clearfix"></div>
+	<!-- END HEADER & CONTENT DIVIDER -->
+	<!-- BEGIN CONTAINER -->
+	<div class="container">
+		<div class="page-container">
+			<!-- BEGIN SIDEBAR -->
+			<th:block th:replace="~{includes/layouts/admin/fragments/menu}" />
+			<!-- END SIDEBAR -->
+			<!-- BEGIN CONTENT -->
+			<div class="page-content-wrapper">
+				<!-- BEGIN CONTENT BODY -->
+				<div class="page-content">
+					<!-- BEGIN PAGE HEADER-->
+					<!-- BEGIN THEME PANEL -->
+					<th:block th:replace="~{includes/layouts/admin/fragments/theme-panel}" />
+					<!-- END THEME PANEL -->
+					<h1 class="page-title">
+						Admin Dashboard <small>statistics, charts, recent events and reports</small>
+					</h1>
+					<div class="page-bar">
+						<ul class="page-breadcrumb">
+							<li><i class="icon-home"></i> <a href="index.html">首页</a> <i class="fa fa-angle-right"></i></li>
+							<li><span>Dashboard</span></li>
+						</ul>
+						<div class="page-toolbar">
+							<div class="btn-group pull-right">
+								<button type="button" class="btn btn-fit-height grey-salt dropdown-toggle" data-toggle="dropdown"
+									data-hover="dropdown" data-delay="1000" data-close-others="true">
+									Actions <i class="fa fa-angle-down"></i>
+								</button>
+								<ul class="dropdown-menu pull-right" role="menu">
+									<li><a href="#"> <i class="icon-bell"></i> Action
+									</a></li>
+									<li><a href="#"> <i class="icon-shield"></i> Another action
+									</a></li>
+									<li><a href="#"> <i class="icon-user"></i> Something else here
+									</a></li>
+									<li class="divider"></li>
+									<li><a href="#"> <i class="icon-bag"></i> Separated link
+									</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!-- END PAGE HEADER-->
+					<!-- BEGIN PAGE BODY-->
+					<th:block th:replace="~{pages/dashboard/index}" />
+					<th:block th:replace="~{example/modal/index}" />
+					<th:block th:replace="~{example/datatables/index}" />
+					<th:block th:replace="~{example/verifyCode/index}" />
+					432142
+					<!-- END PAGE BODY-->
+				</div>
+				<!-- END CONTENT BODY -->
+			</div>
+			<!-- END CONTENT -->
+			<!-- BEGIN QUICK SIDEBAR -->
+			<th:block th:replace="~{includes/layouts/admin/fragments/quick-sidebar}" />
+			<!-- END QUICK SIDEBAR -->
+		</div>
+		<!-- BEGIN FOOTER -->
+		<div th:replace="~{includes/layouts/admin/fragments/footer}"></div>
+		<!-- END FOOTER -->
+	</div>
+	<!-- END CONTAINER -->
+	<script th:inline="javascript" type="text/javascript">
+    	window.contextPath = [[${#servletContext.contextPath}]];
+	</script>
+	<th:block th:replace="~{includes/global/scripts}" />
+	<th:block th:replace="~{includes/layouts/admin/scripts}" />
+</body>
+</html>
