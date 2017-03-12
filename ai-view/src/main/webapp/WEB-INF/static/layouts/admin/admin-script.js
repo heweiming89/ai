@@ -93,7 +93,7 @@ var WebApplication = function() {
         $("#logout_link").on("click", function(event) {
             event.preventDefault();
             $("<form />", {
-                action : context_root + "/logout",
+                action : contextPath + "/logout",
                 method : "get"
             }).appendTo(document.body)[0].submit();
         });

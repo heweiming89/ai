@@ -158,6 +158,26 @@
             <artifactId>jstree</artifactId>
             <version>3.3.3</version>
         </dependency>
+        
+        <dependency>
+            <groupId>org.webjars.bower</groupId>
+            <artifactId>jstree-bootstrap-theme</artifactId>
+            <version>1.0.1</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.webjars.bower</groupId>
+                    <artifactId>jquery</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.webjars.bower</groupId>
+                    <artifactId>bootstrap</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.webjars.bower</groupId>
+                    <artifactId>jstree</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
 
         <dependency>
             <groupId>org.webjars</groupId>
@@ -247,6 +267,12 @@
             <groupId>org.webjars</groupId>
             <artifactId>x-editable-bootstrap3</artifactId>
             <version>1.5.1-1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.webjars.bower</groupId>
+            <artifactId>echarts</artifactId>
+            <version>3.3.1</version>
         </dependency>
 
     </dependencies>

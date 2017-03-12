@@ -7,6 +7,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 
+import com.heweiming.project.ai.bean.Page;
 import com.heweiming.project.ai.mapper.base.BaseMapper;
 import com.heweiming.project.ai.service.base.BaseService;
 
@@ -93,6 +94,14 @@ public class BaseServiceImpl<R, E, M extends BaseMapper<R, E>> implements BaseSe
     @Override
     public int updateByPrimaryKey(R record) {
         return mapper.updateByPrimaryKey(record);
+    }
+
+    @Override
+    public Page<R> selectByExampleToPage(E example, RowBounds rowBounds) {
+        Page<R> page = new Page<>();
+        page.setData(mapper.selectByExampleWithRowbounds(example, rowBounds));
+        page.setTotal(mapper.countByExample(example));
+        return page;
     }
 
 }

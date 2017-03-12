@@ -4,6 +4,8 @@ import java.util.List;
 
 import org.apache.ibatis.session.RowBounds;
 
+import com.heweiming.project.ai.bean.Page;
+
 public interface BaseService<R, E> {
 
     long countByExample(E example);
@@ -17,6 +19,8 @@ public interface BaseService<R, E> {
     int insertSelective(R record);
 
     List<R> selectByExampleWithRowbounds(E example, RowBounds rowBounds);
+
+    Page<R> selectByExampleToPage(E example, RowBounds rowBounds);
 
     List<R> selectByExample(E example);
 
